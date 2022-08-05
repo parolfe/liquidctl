@@ -7,6 +7,7 @@ Supported devices:
 - Corsair Hydro H115i Platinum
 - Corsair Hydro H60i Pro XT
 - Corsair Hydro H100i Pro XT
+- Corsair Hydro H100i RGB Pro XT
 - Corsair Hydro H115i Pro XT
 - Corsair Hydro H150i Pro XT
 
@@ -121,6 +122,8 @@ class HydroPlatinum(UsbHidDriver):
         (0x1b1c, 0x0c29, None, 'Corsair Hydro H60i Pro XT',
             {'fan_count': 2, 'fan_leds': 0}),
         (0x1b1c, 0x0c20, None, 'Corsair Hydro H100i Pro XT',
+            {'fan_count': 2, 'fan_leds': 0}),
+        (0x1b1c, 0x0c2d, None, 'Corsair Hydro H100i RGB Pro XT',
             {'fan_count': 2, 'fan_leds': 0}),
         (0x1b1c, 0x0c21, None, 'Corsair Hydro H115i Pro XT',
             {'fan_count': 2, 'fan_leds': 0}),
